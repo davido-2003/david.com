@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+    <script src="doc.js"></script> 
+</head>
+<body>
+
+    <div class="main" id="mood">
+        <div class="cal">
+            <form name="calcu">
+                <div style="display: block;">
+                    <input class="display" name="display" type="text" placeholder="0.0">
+                </div>
+                <div class="rol">
+                    <input type="button" value="C" class="sub button" onclick="m()" style="background-color: rgba(255, 255, 255, 0.293);">
+                    <input type="button" value="D" class="sub button" onclick="my()" style="background-color: rgba(255, 255, 255, 0.293);">
+                    <input type="button" value="%" class="p-e button" onclick="myf()" style="background-color: rgba(255, 255, 255, 0.293);">
+                    <input type="button" value="+" class="p-e button" onclick="myfu()" style="background-color: orange;">
+                </div>
+                <div class="rol">
+                    <input type="button" value="7" class="num button" onclick="myfun()">
+                    <input type="button" value="8" class="num button" onclick="myfunc()">
+                    <input type="button" value="9" class="num button" onclick="myfunct()">
+                    <input type="button" value="*" class="num button" onclick="myfuncti()" style="background-color: orange;">
+                </div class="rol">
+                <div class="rol">
+                    <input type="button" value="4" class="num button" onclick="myfunctio()">
+                    <input type="button" value="5" class="num button" onclick="myfunction()">
+                    <input type="button" value="6" class="num button" onclick="myF()">
+                    <input type="button" value="-" class="num button" onclick="myFu()" style="background-color: orange;">
+                </div>
+                <div class="rol">
+                    <input type="button" value="1" class="num button" onclick="myFun()">
+                    <input type="button" value="2" class="num button" onclick="myFunc()">
+                    <input type="button" value="3" class="num button" onclick="myFunct()">
+                    <input type="button" value="+" class="p-e button" onclick="myFuncti()" style="background-color: orange;">
+                </div>
+                <div class="rol">
+                    <input type="button" value="0" class="zero button" onclick="myFunctio()">
+                    <input type="button" value="." class="f-stop button" onclick="myFunction()">
+                    <input type="button" value="=" class="p-e button" onclick="myFunctions()" style="background-color: orange;">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.main{
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 200px;
+    margin: auto;
+    width: 20%;
+    margin-top: 40px;
+    background-color: black;
+    border-radius: 26px;
+    height: 500px;
+}
+.display{
+    background-color: black;
+    border: none;
+    color: white;
+    width: 80%;
+    font-size: 30px;
+}
+.display:active{
+    border: blue;
+}
+.cal{
+
+    border-radius: 0 0 26px 26px;
+    padding-left: 10px;
+}
+.num{
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+.zero{
+    border-radius: 10px;
+    padding: 10px 47px 10px 47px;
+}
+.f-stop{
+    border-radius: 10px;
+    padding: 10px 22px 10px 22px;
+}
+.p-e{
+    border-radius: 10px;
+    padding: 10px 18px 10px 18px;
+}
+.sub{
+    border-radius: 10px;
+    padding: 10px 19px 10px 19px;
+}
+.rol{
+    margin-top: 5px;
+}
+.button{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.087);
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.087);
+}
